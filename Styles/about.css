@@ -1,0 +1,13 @@
+.campus {
+    width: 600px;
+}
+
+.about__wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+.founded:first-line {
+    font-weight: bold;
+}
+

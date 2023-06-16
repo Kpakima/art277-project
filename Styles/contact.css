@@ -1,0 +1,82 @@
+
+.email-box {
+    width: 50px;
+}
+
+.contact__wrapper {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.time__wrapper,
+.location__wrapper,
+.telephone__wrapper {
+    width: 300px;
+    background-color: #cacaca;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 80px 210px 50px;
+    width: 650px;
+    margin: 0px auto;
+    grid-gap: 1rem;
+}
+
+.messagefromvisitor {
+    grid-column: span 2;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #cacaca;
+    outline: none;
+
+}
+input[type="text"]:hover {
+    border: 1px solid blue;
+}
+
+textarea {
+    width: 616px;
+    border: none;
+    border-radius: 5px;
+    background-color: #cacaca;
+    outline: none;
+    padding: 20px;
+}
+
+textarea:hover {
+    border: 1px solid blue;
+}
+
+.send-message{
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 0, 128);
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.send-message:hover {
+    opacity: 0.8;
+}
+.send-message:active {
+    opacity: 0.4;
+}
+
+.contactform-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
